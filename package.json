@@ -1,0 +1,18 @@
+{
+  "name": "@buildempire/horse",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "horse": "./bin/horse.js"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "unbuild": "node ./scripts/build.js unbuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "wallpaper": "^4.4.1"
+  }
+}
